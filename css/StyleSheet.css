@@ -1,3 +1,72 @@
-﻿body {
-    //background: url('../img/background.jpg') fixed;
+﻿/* Общие стили */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 10px 0px 10px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+#buttons {
+    
+}
+.indented-paragraph {
+    text-indent: 20px;
 }
